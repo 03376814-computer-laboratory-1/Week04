@@ -7,7 +7,7 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Here Come Are Slash \\");
+            Console.WriteLine("|{0, 10}|", 999);
 
 
 
