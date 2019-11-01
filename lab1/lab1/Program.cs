@@ -7,7 +7,7 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0,-10:X}", 65535);
+            Console.WriteLine("{0,-10:x}", 65535);
 
 
 
