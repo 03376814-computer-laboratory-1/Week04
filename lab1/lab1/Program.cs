@@ -7,9 +7,10 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0:#.###}.",1234.56789);
-           
-
+            char ch;
+            Console.WriteLine("Press a key followed by ENTER:");
+            ch = (char)Console.Read();
+            Console.WriteLine("Your key is: " + ch);
 
         }
     }
