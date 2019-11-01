@@ -7,11 +7,9 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            string name = "Hello";
-            Console.WriteLine(String.Format("{0} there.I said {0}! {0}???", name));
+            Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);
 
-            
-            
+
 
         }
     }
