@@ -7,10 +7,11 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            char ch;
-            Console.WriteLine("Press a key followed by ENTER:");
-            ch = (char)Console.Read();
-            Console.WriteLine("Your key is: " + ch);
+            string str;
+            Console.Write("Enter some characters.");
+            str = Console.ReadLine();
+            Console.WriteLine("You entered: " + str);
+
 
         }
     }
