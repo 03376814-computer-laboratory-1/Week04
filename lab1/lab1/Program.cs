@@ -7,18 +7,15 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            int a = 10, b = 20, x = 5, y = 2;
-
-            Console.WriteLine (a + b);
-            Console.WriteLine(x - b);
-            Console.WriteLine(x * b);
-            Console.WriteLine(y / a);
-            Console.WriteLine(b % y);
-            Console.WriteLine(y + 10 % x);
-            Console.WriteLine(a / 3 * 5);
-            Console.WriteLine(9 / 2 * a);
-            Console.WriteLine(y % 8);
-            Console.WriteLine(100 * x + y % 2 - a);
+            const double lightSpeed = 186000d;   // miles per second
+            Console.WriteLine("Light speed = {0} Mile Per second", lightSpeed);
+            const double mileTokm = 1.609344;
+            Console.WriteLine("Light speed = {0} km Per second", lightSpeed * mileTokm);
+            const double SunToEarthDistance = 93000000d;  // miles
+            Console.WriteLine("SunToEarthDistance = {0} km", SunToEarthDistance * mileTokm);
+            double SunToEarthTimeOfLight = SunToEarthDistance / lightSpeed;  // miles
+            Console.WriteLine("SunToEarthTimeOfLight = {0} seconds", SunToEarthTimeOfLight);
+            Console.WriteLine("SunToEarthTimeOfLight = {0} minutes", SunToEarthTimeOfLight / 60d);
 
 
 
