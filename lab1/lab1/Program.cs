@@ -8,10 +8,10 @@ namespace lab1
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("Data type : ulong");
-                Console.WriteLine("Size :" + sizeof(ulong));
-                Console.WriteLine("Minimum Value :" + ulong.MinValue);
-                Console.WriteLine("Maximum Value :" + ulong.MaxValue);
+                Console.WriteLine("Data type : char");
+                Console.WriteLine("Size :" + sizeof(char));
+                Console.WriteLine("Minimum Value :" + (int) char.MinValue);
+                Console.WriteLine("Maximum Value :" + (int) char.MaxValue);
             }
 
         }
