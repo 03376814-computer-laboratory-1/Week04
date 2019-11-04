@@ -7,13 +7,9 @@ namespace lab1
     {
         static void Main(string[] args)
         {
-            {
-                Console.WriteLine("Data type : sbyte");
-                Console.WriteLine("Size :" + sizeof(sbyte));
-                Console.WriteLine("Minimum Value :" + sbyte.MinValue);
-                Console.WriteLine("Maximum Value :" + sbyte.MaxValue);
-            }
-
+            Random random = new Random();
+            int randomNumber = random.Next(0, 100);
+            Console.WriteLine(randomNumber);
         }
     }
 }
