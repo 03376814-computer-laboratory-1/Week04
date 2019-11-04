@@ -8,10 +8,10 @@ namespace lab1
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("Data type : short");
-                Console.WriteLine("Size :" + sizeof(int));
-                Console.WriteLine("Minimum Value :" + int.MinValue);
-                Console.WriteLine("Maximum Value :" + int.MaxValue);
+                Console.WriteLine("Data type : byte");
+                Console.WriteLine("Size :" + sizeof(byte));
+                Console.WriteLine("Minimum Value :" + byte.MinValue);
+                Console.WriteLine("Maximum Value :" + byte.MaxValue);
             }
 
         }
